@@ -19,8 +19,8 @@
     "reason-react-native": "^0.61.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.0.0",
-    "babel-preset-expo": "~8.0.0",
+    "@babel/core": "^7.9.0",
+    "babel-preset-expo": "~8.1.0",
     "bs-platform": "^7.2.2"
   },
   "private": true

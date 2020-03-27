@@ -18,6 +18,10 @@ let styles =
 
 [@react.component]
 let app = () => {
+  React.useEffect(()=>{
+    Js.log2("DB.x",DB.x)
+    Some(()=>())
+  });
   <View style=styles##container>
     <LinearGradient
       colors=[|"#DD4B39", "#C62C19"|]
